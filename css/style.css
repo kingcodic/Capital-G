@@ -44,8 +44,7 @@
     border-left:2px #66BB6A solid;
     border-radius: 50px; 
     border-top-width: 1px;
-    border-right:2px
-    padding:  1em;
+   
     overflow: hidden;
 }
 
@@ -272,17 +271,37 @@ form{
 
 
 @media screen and (max-width: 967px) {
+    .left-imag{
+        width: 20%;
+        overflow: hidden;
+    }
     .last-towpics {
         
         display: none;
 }
      } 
+     @media screen and (max-width: 991px) {
+        .left-imag{
+            width: 50%;
+            overflow: hidden;
+        }
+
+         } 
      @media screen and (max-width: 761px) {
         .service-box:first-child img{
             border-top-right-radius: 3em;
-            scale: 2;
+            
+        }
+        .first{
+            margin-left: -2em;
+        }
+        
+        .tow-pic{
+            margin-left: -2em;
+           
         }
         .service-box {
+
             
             display: block;
             
@@ -314,6 +333,7 @@ form{
             }
             .left-imag{
                 width: 50%;
+                overflow: hidden;
             }
             
             .mid-pic{
@@ -335,3 +355,4 @@ form{
             }
             
         }
+         }
