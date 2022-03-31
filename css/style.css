@@ -154,7 +154,28 @@ justify-content: space-between;
     font-weight: 100;
     font-size: bold;
 }
+.conatact{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+form > *{
+    text-align: center;
+    margin: auto;
+    justify-self: center;
+}
+#submit{
+    margin: auto;
+}
+.contact-us{
+    text-align: center;
+    margin: auto;
+    justify-self: center;
+}
 form{
+    
+    flex-direction: row;
   row-gap: 13px;
 
 }
@@ -356,3 +377,12 @@ form{
             
         }
          }
+         @media screen and (max-width: 472px) {
+            .imgb > *{
+              margin: 25px !important;
+            }
+            .img{
+                margin-left: -10px;
+            }
+            
+        }
